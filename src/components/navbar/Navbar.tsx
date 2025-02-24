@@ -13,12 +13,19 @@ export default function Navbar(){
                         </div>
                     </Link>
                     <div className="flex items-center gap-8">
-                    <Link to="/criarcategoria" className="hover:text-[#5DFFAD]">
-                            Criar Categoria
-                        </Link>
-                        <Link to="/listarcategorias" className="hover:text-[#5DFFAD]">
-                            Categorias
-                        </Link>
+
+                            <Link to="/criarcategoria" className="hover:underline">
+                                <div className="flex items-center gap-1">
+                                <img src="/plus.square.svg" alt="" className="w-4"/>
+                                Criar Categoria
+                                </div>
+                            </Link>
+                            <Link to="/listarcategorias" className="hover:underline">
+                                <div className="flex items-center gap-1">
+                                    <img src="/square.stack.svg" alt="" className="w-4"/>
+                                    Categorias
+                                </div>
+                            </Link>
                     </div>
                 </div>
             </nav>

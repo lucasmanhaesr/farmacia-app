@@ -20,9 +20,9 @@ export default function App() {
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/home' element={<Home />}></Route>
                 <Route path='/listarcategorias' element={<ListarCategoria />}></Route>
-                <Route path='/deletarcategoria/:id' element={<DeletarCategoria />}></Route>
                 <Route path='/criarcategoria' element={<FormCategoria />}></Route>
                 <Route path='/editarcategoria/:id' element={<FormCategoria />}></Route>
+                <Route path='/deletarcategoria/:id' element={<DeletarCategoria />}></Route>
               </Routes>
             <Footer />
           </div>

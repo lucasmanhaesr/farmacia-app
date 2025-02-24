@@ -84,7 +84,7 @@ export default function FormCategoria() {
                     <label htmlFor="descricao">Descrição da categoria</label>
                     <input
                         type="text"
-                        placeholder="Descriæcão da categoria"
+                        placeholder="Descricão da categoria"
                         name='descricao'
                         className="border-2 border-slate-700 rounded p-2"
                         value={categoria.descricao}
@@ -92,7 +92,7 @@ export default function FormCategoria() {
                     />
                 </div>
                 <button
-                    className="rounded text-slate-100 bg-indigo-400 hover:bg-indigo-800 w-1/2 py-2 mx-auto flex justify-center"
+                    className="rounded text-black bg-[#EBE8E9] hover:bg-[#5DFFAD] w-1/2 py-2 mx-auto flex justify-center"
                     type="submit">
                     {isLoading ?
                         <RotatingLines
@@ -103,7 +103,6 @@ export default function FormCategoria() {
                             visible={true}
                         /> :
                         <span>{id === undefined ? 'Cadastrar' : 'Atualizar'}</span>
-
                     }
                 </button>
             </form>
