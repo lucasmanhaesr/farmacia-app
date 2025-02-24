@@ -92,7 +92,7 @@ export default function FormCategoria() {
                     />
                 </div>
                 <button
-                    className="rounded text-black bg-[#EBE8E9] hover:bg-[#5DFFAD] w-1/2 py-2 mx-auto flex justify-center"
+                    className="rounded text-black bg-[#EBE8E9] hover:bg-[#55C5DE] hover:text-white w-1/2 py-2 mx-auto flex justify-center"
                     type="submit">
                     {isLoading ?
                         <RotatingLines

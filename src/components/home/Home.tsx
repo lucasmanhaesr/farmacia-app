@@ -8,7 +8,7 @@ export default function Home(){
                         <div className="flex flex-col gap-4 items-center justify-center py-4">
                             <h2 className='text-5xl font-bold text-black'> Seja Bem Vindo! </h2>
                             <p className='text-xl text-black'>Mais vendidos na farmacia</p>
-                            <a href="#" className="border border-[#5DFFAD] text-[#5DFFAD] font-semibold p-2 rounded-lg hover:bg-[#5DFFAD] hover:text-white">Conhecer</a>
+                            <a href="#" className="border border-[#55C5DE] text-[#55C5DE] font-semibold p-2 rounded-lg hover:bg-[#55C5DE] hover:text-white">Conhecer</a>
                         </div>
 
                         <div id="imagem" className="flex justify-center">
