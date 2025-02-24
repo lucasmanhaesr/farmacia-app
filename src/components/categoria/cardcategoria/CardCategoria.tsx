@@ -14,11 +14,11 @@ export default function({categoria}: categoriaProps){
                 <p className='py-4 px-8 text-lg h-full'>{categoria.descricao}</p>
                 <div className="flex">
                     <Link to={`/editarcategoria/${categoria.id}`}
-                        className='w-full text-black bg-[#EBE8E9] hover:bg-[#5DFFAD] flex items-center justify-center py-2'>
+                        className='w-full text-black bg-[#EBE8E9] hover:bg-[#5DFFAD] hover:text-white flex items-center justify-center py-2'>
                         <button>Editar</button>
                     </Link>
                     <Link to={`/deletarcategoria/${categoria.id}`} 
-                        className='w-full text-black bg-[#EBE8E9] hover:bg-red-700 flex items-center justify-center py-2'>
+                        className='w-full text-black bg-[#EBE8E9] hover:bg-red-700 hover:text-white flex items-center justify-center py-2'>
                         <button>Deletar</button>
                     </Link>
                 </div>
